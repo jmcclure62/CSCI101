@@ -1,0 +1,3 @@
+Initial Purchase:  $500.00
+Discount (20%):  $100.00
+Final Amount:     $400.00

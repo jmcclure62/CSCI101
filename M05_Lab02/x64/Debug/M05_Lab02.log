@@ -1,0 +1,6 @@
+﻿  CSCI101_M05_Lab02.cpp
+C:\Users\jonas\Documents\GitHub\Education\CSCI101\M05_Lab02\CSCI101_M05_Lab02.cpp(26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jonas\Documents\GitHub\Education\CSCI101\M05_Lab02\CSCI101_M05_Lab02.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+  output.cpp
+  Generating Code...
+  M05_Lab02.vcxproj -> C:\Users\jonas\Documents\GitHub\Education\CSCI101\x64\Debug\M05_Lab02.exe

@@ -1,0 +1,18 @@
+Meal #1
+Initial Value:   $32.95 | Tax:   $2.22 | Tip:   $6.59 | Total:   $41.76
+
+Meal #2
+Initial Value:   $74.60 | Tax:   $5.04 | Tip:   $14.92 | Total:   $94.56
+
+Meal #3
+Initial Value:   $30.43 | Tax:   $2.05 | Tip:   $6.09 | Total:   $38.57
+
+Meal #4
+Initial Value:   $20.00 | Tax:   $1.35 | Tip:   $4.00 | Total:   $25.35
+
+Meal #5
+Initial Value:   $100.75 | Tax:   $6.80 | Tip:   $20.15 | Total:   $127.70
+
+Meal #6
+Initial Value:   $23.45 | Tax:   $1.58 | Tip:   $4.69 | Total:   $29.72
+
