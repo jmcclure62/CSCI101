@@ -1,0 +1,16 @@
+ASSIGNMENT: Honor Student
+
+Write a program that gets from the user 5 course scores. For each course score, determine the letter grade and the quality points. 
+
+Grading Scale
+90% - 100%              A        4pts
+80% - 89%                B        3pts
+70% - 79%                C        2pts
+60% - 69%                D        1pt
+Below 60%                F        0pts
+
+Take the quality points for each course and find the average (GPA) for the student. The student is an honor student if the GPA is greater than 3.5. 
+
+Display on the screen the letter grade for each of the course scores calculated, the calculated GPA formatted to 1 decimal place, and a message about whether or not the student is an honor student.
+
+INPUT VALIDATION: Make sure the course scores entered for a student are between 0 and 100.

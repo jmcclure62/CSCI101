@@ -1,0 +1,35 @@
+You will ask the user to enter a single character and then evaluate the input. The program will report the input as either:
+* a vowel
+* sometimes a vowel
+* NOT a vowel
+
+REQUIRED TO USE THE SWITCH CONTRUCT FOR C++.
+
+
+Planning:
+~~~~~~~~~~~~~
+
+Main module:
+		Declare always_vowel As String
+		Declare not_vowel As String
+		Declare sometimes_vowel As String
+		Call Input Data module
+		Call Perform Calculations module
+		Call Output Results module
+End program.
+
+
+Input Data module:
+
+End Input Data module.
+
+
+Perform Calculations module:
+
+End Perform Calculations module.
+
+
+Output Results module:
+
+End Output Results module.
+
