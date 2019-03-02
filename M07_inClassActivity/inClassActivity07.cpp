@@ -2,7 +2,7 @@
 	CSCI101, inClassActivity07.cpp
 	Purpose:  Calculate and display values based on student grades.
 
-	@author J. McClure
+	@author Jonas McClure
 	@version 1.0 02/25/2019
 
 	Stlye Note:  '_underbar used for local variables' && 'camelCase used for function names'
@@ -34,20 +34,20 @@ string inputTesting(char toVerify) {
 */
 	string testing_done;
 	switch (toVerify) {
-	case 'A':
-	case 'E':
-	case 'I':
-	case 'O':
-	case 'U':
-		testing_done = "is a vowel!";
-		break;
-	case 'Y':
-		testing_done = "is only sometimes a vowel.";
-		break;
-	default:
-		testing_done = "is not a vowel.";
-	return testing_done;
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':
+			testing_done = "is a vowel!";
+			break;
+		case 'Y':
+			testing_done = "is only sometimes a vowel.";
+			break;
+		default:
+			testing_done = "is not a vowel.";
 	}
+	return testing_done;
 }
 
 int main() {

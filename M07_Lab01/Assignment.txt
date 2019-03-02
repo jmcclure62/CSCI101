@@ -1,18 +1,16 @@
-ASSIGNMENT: Body Mass Index
+ASSIGNMENT: Honor Student
 
-Write a program that reads names, weights, and heights from BMI.dat (do not change the file name). Use the information to calculate and displays a person’s body mass index (BMI). The BMI is often used to determine whether a person with a sedentary lifestyle is overweight or underweight for his or her height. A person’s BMI is calculated with the following formula:
+Write a program that gets from the user 5 course scores. For each course score, determine the letter grade and the quality points. 
 
-BMI = weight × 703 / height2
+Grading Scale
+90% - 100%              A        4pts
+80% - 89%                B        3pts
+70% - 79%                C        2pts
+60% - 69%                D        1pt
+Below 60%                F        0pts
 
-where weight is measured in pounds and height is measured in inches.
+Take the quality points for each course and find the average (GPA) for the student. The student is an honor student if the GPA is greater than 3.5. 
 
-The file is in the format 
+Display on the screen the letter grade for each of the course scores calculated, the calculated GPA formatted to 1 decimal place, and a message about whether or not the student is an honor student.
 
-name weightInKG heightInCM
-You will read the name, weight and height for 4 people from the file, and you will need to convert the weights in the file to pounds (note that 1 kilogram = 2.2 pounds) and the heights to inches (1 cm = 0.39 inches).
-
-The program should display the person's name along with the calculated BMI and a message indicating whether the person has optimal weight, is underweight, or is overweight.
-
-A person’s weight is considered to be optimal if his or her BMI is between 18.5 and 25. If the BMI is less than 18.5, the person is considered to be underweight. If the BMI value is greater than 25, the person is considered to be overweight.
-
-Input Validation: Make sure all heights and weights read from the file are greater than 0.
+INPUT VALIDATION: Make sure the course scores entered for a student are between 0 and 100.

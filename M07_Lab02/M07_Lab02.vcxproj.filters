@@ -22,4 +22,7 @@
   <ItemGroup>
     <Text Include="Assignment.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BMI.dat" />
+  </ItemGroup>
 </Project>

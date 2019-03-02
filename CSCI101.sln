@@ -23,6 +23,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "M07_Lab02", "M07_Lab02\M07_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "M07_inClassActivity", "M07_inClassActivity\M07_inClassActivity.vcxproj", "{B3CDCA63-B735-4904-8362-045750D4A3E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Saved", "Saved", "{27898D81-CF48-46F1-AE85-098945D533DB}"
+	ProjectSection(SolutionItems) = preProject
+		M07_Lab02\CSCI101_M07_Lab02.cpp = M07_Lab02\CSCI101_M07_Lab02.cpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
