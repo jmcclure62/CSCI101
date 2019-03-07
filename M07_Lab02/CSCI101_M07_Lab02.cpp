@@ -16,6 +16,12 @@
 using namespace std;
 
 int line_number() {
+/**
+	Find the number of lines within the file
+
+	@param No
+	@return file line count
+*/
 	ifstream in_file("BMI.dat");
 	int num_of_lines = 0;
 	for (string line; getline(in_file, line);) {
@@ -41,6 +47,13 @@ void cm_to_inches(vector<float>& height) {
 }
 
 string body_index(float weight, float height) {
+/**
+	Calculates the body mass index based on American
+		measuring systems.
+
+	@param input the converted weight and height
+	@return display output containing BMI
+*/
 	string results;
 	float index = (weight * 703) / (height * height);
 	ostringstream oss;

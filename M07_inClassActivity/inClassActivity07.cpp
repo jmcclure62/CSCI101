@@ -5,7 +5,7 @@
 	@author Jonas McClure
 	@version 1.0 02/25/2019
 
-	Stlye Note:  '_underbar used for local variables' && 'camelCase used for function names'
+	Style Note:  '_underbar used for local variables' && 'camelCase used for function names'
 */
 
 #include <iostream>

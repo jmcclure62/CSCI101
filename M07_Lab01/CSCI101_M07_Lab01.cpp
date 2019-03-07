@@ -14,6 +14,12 @@
 using namespace std;
 
 tuple <float, float, float, float, float> userInput() {
+	/**
+	Gets the user input for each grade
+
+	@param None. Simple call, no function input necessary.
+	@return A tuple value of all the grades
+*/
 	float grades01, grades02, grades03, grades04, grades05;
 
 	cout << "Please input the numerical grade value for five courses:  " << endl;
@@ -27,6 +33,13 @@ tuple <float, float, float, float, float> userInput() {
 }
 
 float performCalculations() {
+	/**
+	Calculations:  Assign letter and grade value for user input
+		use those to calculate the grade point average
+
+	@param Self-contained. Only called on.
+	@return The ending Grade Point Average for the user input.
+*/
 	float grades[5];
 	tie(grades[0], grades[1], grades[2], grades[3], grades[4]) = userInput();
 	char letter_value[5];
