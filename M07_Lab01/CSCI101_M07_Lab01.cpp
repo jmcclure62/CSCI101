@@ -13,7 +13,7 @@
 #include <tuple>
 using namespace std;
 
-tuple <float, float, float, float, float> userInput() {
+tuple <float, float, float, float, float> UserInput() {
 	/**
 	Gets the user input for each grade
 
@@ -32,7 +32,7 @@ tuple <float, float, float, float, float> userInput() {
 	return make_tuple(grades01, grades02, grades03, grades04, grades05);
 }
 
-float performCalculations() {
+float PerformCalculations() {
 	/**
 	Calculations:  Assign letter and grade value for user input
 		use those to calculate the grade point average
@@ -41,48 +41,47 @@ float performCalculations() {
 	@return The ending Grade Point Average for the user input.
 */
 	float grades[5];
-	tie(grades[0], grades[1], grades[2], grades[3], grades[4]) = userInput();
-	char letter_value[5];
-	float quality_points[5];
-	float total_points = 0;
-	float gpa;
+	tie(grades[0], grades[1], grades[2], grades[3], grades[4]) = UserInput();
+	char letterValue[5];
+	float qualityPoints[5];
+	float totalPoints = 0;
 
-	for (int num = 0; num <= 4; num++) {
+	for (auto num = 0; num <= 4; num++) {
 		if (grades[num] >= 90 && grades[num] <= 100) {
-			letter_value[num] = 'A';
-			quality_points[num] = 4;
+			letterValue[num] = 'A';
+			qualityPoints[num] = 4;
 		}
 		if (grades[num] >= 80 && grades[num] <= 89) {
-			letter_value[num] = 'B';
-			quality_points[num] = 3;
+			letterValue[num] = 'B';
+			qualityPoints[num] = 3;
 		}
 		if (grades[num] >= 70 && grades[num] <= 79) {
-			letter_value[num] = 'C';
-			quality_points[num] = 2;
+			letterValue[num] = 'C';
+			qualityPoints[num] = 2;
 		}
 		if (grades[num] >= 60 && grades[num] <= 69) {
-			letter_value[num] = 'D';
-			quality_points[num] = 1;
+			letterValue[num] = 'D';
+			qualityPoints[num] = 1;
 		}
 		if (grades[num] <= 59) {
-			letter_value[num] = 'F';
-			quality_points[num] = 0;
+			letterValue[num] = 'F';
+			qualityPoints[num] = 0;
 		}
 	}
 
 	cout << "\nLetter values for the input grades:  " << endl;
-	for (int num = 0; num <= 4; num++) {
-		total_points += quality_points[num];
-		cout << "Grade " << int(num + 1) << ":  " << letter_value[num] << endl;
+	for (auto num = 0; num <= 4; num++) {
+		totalPoints += qualityPoints[num];
+		cout << "Grade " << int(num + 1) << ":  " << letterValue[num] << endl;
 	}
-	
-	gpa = total_points / 5;
+
+	const auto gpa = totalPoints / 5;
 
 	return gpa;
 }
 
 int main() {
-	float gpa = performCalculations();
+	const auto gpa = PerformCalculations();
 	cout << setprecision(2) << "\n Your grade point average is:  " << gpa << endl;
 	if (gpa > 3.5) {
 		cout << "Congratulations! You are an honor student!" << endl;
